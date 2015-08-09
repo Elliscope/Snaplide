@@ -1,0 +1,175 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'gm' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install gm is installed as 1.18.1
+5 silly cache add args [ 'gm', null ]
+6 verbose cache add spec gm
+7 silly cache add parsed spec { raw: 'gm',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'gm',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed gm@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'gm', range: '*', hasData: false }
+12 silly mapToRegistry name gm
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gm
+16 verbose addNameRange registry:https://registry.npmjs.org/gm not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gm
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 1:42:33 AM
+20 verbose request id ddd44b5e5476b413
+21 verbose etag "EB027YYYXPQD0LL43NK7GOBC6"
+22 http request GET https://registry.npmjs.org/gm
+23 http 304 https://registry.npmjs.org/gm
+24 silly get cb [ 304,
+24 silly get   { date: 'Sun, 09 Aug 2015 05:42:33 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"EB027YYYXPQD0LL43NK7GOBC6"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-atl6229-ATL',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1439098953.896762,VS0,VE87',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/gm from cache
+26 verbose get saving gm to /Users/Elliscope/.npm/registry.npmjs.org/gm/.cache.json
+27 silly addNameRange number 2 { name: 'gm', range: '*', hasData: true }
+28 silly addNameRange versions [ 'gm',
+28 silly addNameRange   [ '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.8.0',
+28 silly addNameRange     '1.8.1',
+28 silly addNameRange     '1.8.2',
+28 silly addNameRange     '1.9.0',
+28 silly addNameRange     '1.9.1',
+28 silly addNameRange     '1.9.2',
+28 silly addNameRange     '1.10.0',
+28 silly addNameRange     '1.11.0',
+28 silly addNameRange     '1.11.1',
+28 silly addNameRange     '1.12.0',
+28 silly addNameRange     '1.12.1',
+28 silly addNameRange     '1.12.2',
+28 silly addNameRange     '1.13.0',
+28 silly addNameRange     '1.13.1',
+28 silly addNameRange     '1.13.2',
+28 silly addNameRange     '1.13.3',
+28 silly addNameRange     '1.14.0',
+28 silly addNameRange     '1.14.1',
+28 silly addNameRange     '1.14.2',
+28 silly addNameRange     '1.15.0',
+28 silly addNameRange     '1.16.0',
+28 silly addNameRange     '1.17.0',
+28 silly addNameRange     '1.18.1' ] ]
+29 verbose addNamed gm@1.18.1
+30 silly addNamed semver.valid 1.18.1
+31 silly addNamed semver.validRange 1.18.1
+32 silly cache afterAdd gm@1.18.1
+33 verbose afterAdd /Users/Elliscope/.npm/gm/1.18.1/package/package.json not in flight; writing
+34 verbose afterAdd /Users/Elliscope/.npm/gm/1.18.1/package/package.json written
+35 silly install resolved [ { name: 'gm',
+35 silly install resolved     description: 'GraphicsMagick and ImageMagick for node.js',
+35 silly install resolved     version: '1.18.1',
+35 silly install resolved     author:
+35 silly install resolved      { name: 'Aaron Heckmann',
+35 silly install resolved        email: 'aaron.heckmann+github@gmail.com' },
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'graphics',
+35 silly install resolved        'magick',
+35 silly install resolved        'image',
+35 silly install resolved        'graphicsmagick',
+35 silly install resolved        'imagemagick',
+35 silly install resolved        'gm',
+35 silly install resolved        'convert',
+35 silly install resolved        'identify',
+35 silly install resolved        'compare' ],
+35 silly install resolved     engines: { node: '>= 0.10.0' },
+35 silly install resolved     bugs: { url: 'http://github.com/aheckmann/gm/issues' },
+35 silly install resolved     licenses: [ [Object] ],
+35 silly install resolved     main: './index',
+35 silly install resolved     scripts: { test: 'make test-unit; make test;' },
+35 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/aheckmann/gm.git' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     devDependencies: { gleak: '~0.5.0', async: '~0.9.0' },
+35 silly install resolved     dependencies:
+35 silly install resolved      { debug: '~2.2.0',
+35 silly install resolved        'array-series': '~0.1.5',
+35 silly install resolved        'array-parallel': '~0.1.3' },
+35 silly install resolved     gitHead: '1d833f7ea5bb343dd9c63779796ac8a1bdb3396c',
+35 silly install resolved     homepage: 'https://github.com/aheckmann/gm#readme',
+35 silly install resolved     _id: 'gm@1.18.1',
+35 silly install resolved     _shasum: 'cc41ea20460ae9ca76ddc4c39860fae42b916939',
+35 silly install resolved     _from: 'gm@*',
+35 silly install resolved     _npmVersion: '2.9.1',
+35 silly install resolved     _nodeVersion: '0.12.3',
+35 silly install resolved     _npmUser: { name: 'rwky', email: 'admin@rwky.net' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'cc41ea20460ae9ca76ddc4c39860fae42b916939',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/gm/-/gm-1.18.1.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/gm/-/gm-1.18.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install gm@1.18.1 into /Users/Elliscope/Documents/Developer/Nodejs/twillio_node
+37 info installOne gm@1.18.1
+38 verbose installOne of gm to /Users/Elliscope/Documents/Developer/Nodejs/twillio_node not in flight; installing
+39 warn locking Error: EACCES, open '/Users/Elliscope/.npm/_locks/gm-3e7602819d12221b.lock'
+39 warn locking     at Error (native)
+39 warn locking  /Users/Elliscope/.npm/_locks/gm-3e7602819d12221b.lock failed { [Error: EACCES, open '/Users/Elliscope/.npm/_locks/gm-3e7602819d12221b.lock']
+39 warn locking   errno: -13,
+39 warn locking   code: 'EACCES',
+39 warn locking   path: '/Users/Elliscope/.npm/_locks/gm-3e7602819d12221b.lock' }
+40 verbose stack Error: Attempt to unlock /Users/Elliscope/Documents/Developer/Nodejs/twillio_node/node_modules/gm, which hasn't been locked
+40 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+40 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+40 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+40 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+40 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+40 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+40 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+41 verbose cwd /Users/Elliscope/Documents/Developer/Nodejs/twillio_node
+42 error Darwin 14.4.0
+43 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gm"
+44 error node v0.12.2
+45 error npm  v2.7.4
+46 error Attempt to unlock /Users/Elliscope/Documents/Developer/Nodejs/twillio_node/node_modules/gm, which hasn't been locked
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
