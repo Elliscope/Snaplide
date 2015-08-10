@@ -44,8 +44,8 @@ router.post('/', function(req, res, next) {
 
 var resp = new twilio.TwimlResponse();
 resp.message(function() {
-	this.body('Trust Pound!');
-    this.media('http://kubilayerdogan.net/screenshot/img.png');
+	this.body('Current  Slide is here! Thanks for using it! We develop this app for free to bring more convenience and efficiency in conference presentation! The service is free, but if you like this funcionality, please show like to us by DONATING TO CHARITY. The link is XXXXXX ');
+    this.media('http://16fb0b1e.ngrok.io/images/1.png');
     //this.media('http://www.gabelliconnect.com/wp-content/uploads/2012/09/ABC.jpg');
 });
 
